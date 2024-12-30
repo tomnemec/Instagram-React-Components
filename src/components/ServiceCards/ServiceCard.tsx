@@ -1,5 +1,6 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
-import { ServiceCardData } from "./ServiceCards";
+import { ServiceCardData } from "./models";
+
 
 interface Props {
   serviceCardData: ServiceCardData;

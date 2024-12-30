@@ -1,16 +1,8 @@
 import { IoCodeSlashOutline, IoPerson } from "react-icons/io5";
 import ServiceCard from "./ServiceCard";
-import { IconType } from "react-icons";
 import { FaGlobe } from "react-icons/fa";
 import { GrWorkshop } from "react-icons/gr";
-
-export interface ServiceCardData {
-  name: string;
-  description: string;
-  icon: IconType;
-  isFeatured: boolean;
-  link: string;
-}
+import { ServiceCardData } from "./models";
 
 const ServiceCards = () => {
   const services: ServiceCardData[] = [
