@@ -7,33 +7,38 @@ export interface ServiceCardData {
   description: string;
   icon: IconType;
   isFeatured: boolean;
+  link: string;
 }
 
 const ServiceCards = () => {
   const services: ServiceCardData[] = [
     {
       name: "Service 1",
-      description: "Service 1 Description",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       icon: IoPerson,
       isFeatured: false,
+      link: "/service1",
     },
     {
       name: "Service 2",
-      description: "Service 2 Description",
-      icon: IoCodeSlashOutline ,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: IoCodeSlashOutline,
       isFeatured: true,
+      link: "/service2",
     },
     {
       name: "Service 3",
-      description: "Service 3 Description",
-      icon: IoCodeSlashOutline ,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: IoCodeSlashOutline,
       isFeatured: false,
+      link: "/service3",
     },
     {
       name: "Service 4",
-      description: "Service 4 Description",
-      icon: IoCodeSlashOutline ,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: IoCodeSlashOutline,
       isFeatured: false,
+      link: "/service4",
     },
   ];
 
