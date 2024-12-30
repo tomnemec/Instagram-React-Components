@@ -9,7 +9,7 @@ const ServiceCard = ({ serviceCardData }: Props) => {
   return (
     <>
       <div
-        className={`shadow-md rounded-xl p-5 h-60 relative ${
+        className={`shadow-md rounded-xl p-5 h-60 relative hover:scale-105 cursor-pointer transition-all ${
           serviceCardData.isFeatured ? "bg-blue-300 " : "bg-white "
         }`}
         key={serviceCardData.name}
