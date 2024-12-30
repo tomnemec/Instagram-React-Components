@@ -1,6 +1,8 @@
 import { IoCodeSlashOutline, IoPerson } from "react-icons/io5";
 import ServiceCard from "./ServiceCard";
 import { IconType } from "react-icons";
+import { FaGlobe } from "react-icons/fa";
+import { GrWorkshop } from "react-icons/gr";
 
 export interface ServiceCardData {
   name: string;
@@ -13,30 +15,30 @@ export interface ServiceCardData {
 const ServiceCards = () => {
   const services: ServiceCardData[] = [
     {
-      name: "Service 1",
+      name: "1:1 Coaching",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       icon: IoPerson,
       isFeatured: false,
       link: "/service1",
     },
     {
-      name: "Service 2",
+      name: "Coding Bootcamp",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       icon: IoCodeSlashOutline,
       isFeatured: true,
       link: "/service2",
     },
     {
-      name: "Service 3",
+      name: "Online Courses",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      icon: IoCodeSlashOutline,
+      icon: FaGlobe ,
       isFeatured: false,
       link: "/service3",
     },
     {
-      name: "Service 4",
+      name: "Workshops",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      icon: IoCodeSlashOutline,
+      icon: GrWorkshop ,
       isFeatured: false,
       link: "/service4",
     },
